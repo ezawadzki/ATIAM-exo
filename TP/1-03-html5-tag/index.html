@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML5 - audiotag</title>
+</head>
+<body>
+  <audio id="loop" src="./audio/drum-loop.wav" controls />
+
+  <script>
+    document.addEventListener('click', () => {
+      const $loop = document.querySelector('#loop');
+      $loop.play();
+    });
+  </script>
+</body>
+</html>
