@@ -1,13 +1,13 @@
 import 'source-map-support/register';
 import http from 'http';
-import uws from 'uws';
+import ws from 'ws';
 import connect from 'connect';
 import portfinder from 'portfinder';
 import serveStatic from 'serve-static';
 import serveFavicon from 'serve-favicon';
 
 const app = connect();
-const SocketServer = uws.Server;
+const SocketServer = ws.Server;
 
 app.use(serveFavicon('./public/favicon.ico'));
 app.use(serveStatic('./public', { index: ['index.html'] }));
