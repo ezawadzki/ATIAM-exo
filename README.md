@@ -94,7 +94,11 @@ https://tonejs.github.io
 
 ##### Art
 
+https://synth.playtronica.com/
+
 https://tonejs.github.io/demos
+
+https://musedlab.org/
 
 
 ##### Industrie
