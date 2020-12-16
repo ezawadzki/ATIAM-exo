@@ -5,6 +5,8 @@ Un projet à réaliser à deux/trois personnes ou seul sera à rendre
 
 ## Pré-requis
 
+###  Navigateur
+
 Pour ce cours, nous travaillerons principalement avec le navigateur Chrome qui présentent les dernières avancées en matière de Web Audio / Midi.
 
 ### Debug
