@@ -1,9 +1,8 @@
-let context = null; // the Web Audio "context" object
-let midiAccess = null; // the MIDIAccess object.
+let context; // the Web Audio "context" object
 let bufferLoader; // buffer
 let filter; // biquad filter
-let filterDefault = 5000; // default value
-let freqMax = 20000; // frequency max
+const filterDefault = 5000; // default value
+const freqMax = 20000; // frequency max
 
 // 0. Resume audio context
 

@@ -1,9 +1,8 @@
-let context = null; // the Web Audio "context" object
-let midiAccess = null; // the MIDIAccess object.
+let context; // the Web Audio "context" object
 let bufferLoader; // buffer
 let filter; // biquad filter
-let filterDefault = 5000; // default value
-let freqMax = 20000; // frequency max
+const filterDefault = 5000; // default value
+const freqMax = 20000; // frequency max
 
 // 0. Resume audio context
 document.getElementById('button-resume').addEventListener('click', function() {
@@ -67,6 +66,7 @@ function onMIDIReject (err) {
 
 // 4. Event handler which receive all Midi Messages
 function midiMessageEventHandler (event) {
+    // 1 message MIDI = 1 byte = 1 octect = 8bits
     // [Status (message type + channel), Data 1 (note), Data 2 (velocity)]
     let str = 'MIDI message received [' + event.data.length + ' bytes]: ';
     for (let i = 0; i < event.data.length; i++) {
