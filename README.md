@@ -12,7 +12,7 @@ Pour ce cours, nous travaillerons principalement avec le navigateur Chrome qui p
 Les navigateurs présentent un outil de débugging. Pour y accéder : touche ```F12``` ou clique droit et ```inspecter```.
 Pour voir vos erreurs ou les messages que vous logguez, aller dans l'onglet ```console```.
 
-## Référence HTML
+## HTML
 
 Le **HyperText Markup Language**, généralement abrégé HTML ou dans sa dernière version HTML5, est le langage de balisage conçu pour représenter les pages web.
 
@@ -26,21 +26,21 @@ Ce langage permet :
 
 https://developer.mozilla.org/fr/docs/Apprendre/HTML
 
-## Référence CSS
+## CSS
 
 Les feuilles de style en cascade, généralement appelées CSS de l'anglais **Cascading Style Sheets**, permet de styliser le rendu des fichiers HTML.
 
 https://developer.mozilla.org/fr/docs/Apprendre/CSS
 
-## Référence Javascript
+## Javascript
 
 **JavaScript** est un langage de programmation de scripts principalement employé dans les pages web interactives. La majorité des navigateurs web disposent d'un moteur JavaScript dédié pour l'interpréter.
 
 https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference
 
-## Gestion des dépendances
+### Gestion des dépendances
 
-### Balise script
+#### Balise script
 
 On peut faire appel directement à un script externe de cette manière :
 
@@ -56,7 +56,7 @@ Cette manière d'importer les dépendances est possible pour de petit projet. Si
 
 ref : https://developer.mozilla.org/fr/docs/Web/HTML/Element/script
 
-### Package manager
+#### Package manager
 
 
 ```npm install``` : installe toutes les dépendances situé dans un fichier ```package.json```situé à la racine d'un projet.
@@ -71,28 +71,28 @@ Liste des navigateurs qui supportent l'instruction ```import```: https://caniuse
 npm : https://www.npmjs.com/
 
 
-## Librairies
+### Librairies
 
 https://github.com/wavesjs
 
 https://tonejs.github.io
 
-## Web Audio / Midi
+### Web Audio / Midi
 
-### Documents de références
+#### Documents de références
 
 Web Audio : https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
 
 Web Midi : https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess
 
-### Démos
+#### Démos
 
-#### Art
+##### Art
 
 https://tonejs.github.io/demos
 
 
-#### Industrie
+##### Industrie
 
 Editeur pour la drum machine Novation Circuit : https://components.novationmusic.com/circuit/editor
 
