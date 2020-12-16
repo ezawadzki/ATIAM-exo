@@ -90,14 +90,12 @@ https://github.com/wavesjs
 
 https://tonejs.github.io
 
-#### Démos
-
-##### Art
+#### Démos - Art
 
 https://tonejs.github.io/demos
 
 
-##### Industrie
+##### Démos - Industrie
 
 Editeur pour la drum machine Novation Circuit : https://components.novationmusic.com/circuit/editor
 
