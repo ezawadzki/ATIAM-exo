@@ -73,19 +73,22 @@ Liste des navigateurs qui supportent l'instruction ```import```: https://caniuse
 npm : https://www.npmjs.com/
 
 
-### Librairies
+### Web Audio / Midi
+
+La Web Audio API propose un système puissant et flexible pour contrôler les données audio sur internet. Elle permet notamment de sélectionner des sources audio (microphone, flux media), d'y ajouter des effets, de créer des visualisations, d'appliquer des effets de spatialisation (comme la balance), etc.
+
+
+#### Documents de références
+
+Web Audio : https://developer.mozilla.org/fr/docs/Web/API/Web_Audio_API
+
+Web Midi : https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess
+
+#### Librairies
 
 https://github.com/wavesjs
 
 https://tonejs.github.io
-
-### Web Audio / Midi
-
-#### Documents de références
-
-Web Audio : https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
-
-Web Midi : https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess
 
 #### Démos
 
