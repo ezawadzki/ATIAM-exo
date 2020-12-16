@@ -1,5 +1,17 @@
 # ATIAM-exo
 
+Nous verrons les bases du Web Audio et Web Midi sur 12h de cours.
+Un projet à réaliser à deux/trois personnes ou seul sera à rendre
+
+## Pré-requis
+
+Pour ce cours, nous travaillerons principalement avec le navigateur Chrome qui présentent les dernières avancées en matière de Web Audio / Midi.
+
+### Debug
+
+Les navigateurs présentent un outil de débugging. Pour y accéder : touche ```F12``` ou clique droit et ```inspecter```.
+Pour voir vos erreurs ou les messages que vous logguez, aller dans l'onglet ```console```.
+
 ## Référence HTML
 
 Le **HyperText Markup Language**, généralement abrégé HTML ou dans sa dernière version HTML5, est le langage de balisage conçu pour représenter les pages web.
