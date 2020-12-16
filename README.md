@@ -1,7 +1,9 @@
 # ATIAM - Web Audio / Midi
 
 Nous verrons les bases du Web Audio et Web Midi sur 12h de cours.
-Un projet à réaliser à deux/trois personnes ou seul sera à rendre
+Un projet à réaliser à deux/trois personnes ou seul sera à rendre.
+Livraison sur un repository github avec demo en ligne.
+Rendu fin janvier.
 
 ## Pré-requis
 
