@@ -52,7 +52,7 @@ ref : https://developer.mozilla.org/fr/docs/Web/HTML/Element/script
 ```npm install [nom_de_la_dépendance]```: écrit dans le fichier package.json pour vous et installe la dépendance.
 
 Ces dépendances sont importables avec l'instruction ```import```.
-Malheureusement, tous les navigateurs ne supportent pas encore cette instruction, alors nous avons besoin de **transpiler** notre code à l'aide d'un utilitaire type [webpack](https://webpack.js.org/) ou  [webprollupack](https://rollupjs.org/guide/en/).
+Malheureusement, tous les navigateurs ne supportent pas encore cette instruction, alors nous avons besoin de **transpiler** notre code à l'aide d'un utilitaire type [webpack](https://webpack.js.org/), [rollup](https://rollupjs.org/guide/en/) ou [parcels](https://parceljs.org/).
 Liste des navigateurs qui supportent l'instruction ```import```: https://caniuse.com/?search=import
 
 
