@@ -31,10 +31,13 @@ https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference
 ### Balise script
 
 On peut faire appel directement à un script externe de cette manière :
+
 Script local :
+
 ```<script src="script.js"></script>```
 
 Script externe, situé sur un CDN (Content Delivery Network) :
+
 ```<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.73/Tone.js"></script>```
 
 Cette manière d'importer les dépendances est possible pour de petit projet. Si vous avez à faire des projets plus conséquent, il vaut mieux gérer les dépendances avec un package manager décrit comme ci-dessous.
@@ -45,7 +48,9 @@ ref : https://developer.mozilla.org/fr/docs/Web/HTML/Element/script
 
 
 ```npm install``` : installe toutes les dépendances situé dans un fichier ```package.json```situé à la racine d'un projet.
+
 ```npm install [nom_de_la_dépendance]```: écrit dans le fichier package.json pour vous et installe la dépendance.
+
 Ces dépendances sont importables avec l'instruction ```import```.
 Malheureusement, tous les navigateurs ne supportent pas encore cette instruction, alors nous avons besoin de **transpiler** notre code à l'aide d'un utilitaire type [webpack](https://webpack.js.org/) ou  [webprollupack](https://rollupjs.org/guide/en/).
 Liste des navigateurs qui supportent l'instruction ```import```: https://caniuse.com/?search=import
@@ -57,26 +62,34 @@ npm : https://www.npmjs.com/
 ## Librairies
 
 https://github.com/wavesjs
+
 https://tonejs.github.io
 
-## Documents de références
+## Web Audio / Midi
+
+### Documents de références
 
 Web Audio : https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
 Web Midi : https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess
 
-## Démos
+### Démos
 
-### Art
+#### Art
 
 https://tonejs.github.io/demos
 
 
-### Industrie
+#### Industrie
 
 Editeur pour la drum machine Novation Circuit : https://components.novationmusic.com/circuit/editor
+
 DAW: https://ampedstudio.com/
+
 Ableton tutorials: https://learningmusic.ableton.com/
+
 Pédale Owl : https://www.rebeltech.org/ (onglet patches)
+
 Electro groove : https://electrogroove.fr/
 
 
